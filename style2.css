@@ -7,7 +7,7 @@ body {
 .nav-container {
     width: 100%;
     margin: 0 1%;
-    position: fixed;
+    position: relative;
     z-index: 1;
     background: #ffffff;
     box-shadow: 1px 2px 6px 0px #0000001f;
@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 h1 {
-    font-family: lalezar;
+    font-family: "lalezar";
     font-size: 48px;
     color: #444444;
     margin: 8px 0px;
@@ -28,7 +28,7 @@ h1 {
 }
 
 .nombrecasos {
-    font-family: Catamaran;
+    font-family: "lalezar";
     font-size: 34px;
     color: rgb(51, 51, 51);
     margin-bottom: 20px;
@@ -71,6 +71,13 @@ ul {
     font-weight: 300;
 }
 
+.centrar-texto {
+    text-align: center;
+    font-size: 50px;
+    color: #444444;
+    margin: 6%;
+}
+
 .titulo {
     font-size: 32px;
 }
@@ -82,6 +89,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 10%;
+margin-top: 10%;
 
 }
 .img{
@@ -111,4 +119,94 @@ margin-bottom: 10%;
     margin-bottom: 3%;
 }
 
+li {
+    text-align: -webkit-match-parent;
+}
 
+h4 {
+    font-size: 17px;
+    font-family: 'Roboto-Light', 'Roboto', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: left;
+    margin-bottom: 2%;
+    line-height: 1.4;
+}
+
+.link-case-study {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.fas {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.parrafo {
+    font-family: 'Roboto-Light', 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 1.6;
+    margin-top: 37px;
+    margin-bottom: 34px;
+}
+
+footer div h2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.699);
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.container-footer {
+    background-color: #000000;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.derechos p {
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: 'Lato';
+}
+
+.redes-footer a {
+    font-size: 24px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-medium-m:before {
+    content: "\f3c7";
+}
