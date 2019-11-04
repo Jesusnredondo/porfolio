@@ -7,6 +7,7 @@ body {
 .nav-container {
     width: 100%;
     margin: 0 1%;
+    font-family: 'Roboto-Light', 'Roboto', sans-serif;
     position: relative;
     z-index: 1;
     background: #ffffff;
@@ -20,6 +21,13 @@ h1 {
     font-size: 48px;
     color: #444444;
     margin: 8px 0px;
+}
+
+
+.title {
+    font-size: 26px;
+    margin: 52px;
+    text-align: center;
 }
 
 .nombre {
@@ -67,13 +75,10 @@ ul {
     margin-top: 72px;
 }
 
-.fw-300 {
-    font-weight: 300;
-}
 
 .centrar-texto {
     text-align: center;
-    font-size: 50px;
+    font-size: 31px;
     color: #444444;
     margin: 6%;
 }
@@ -124,7 +129,7 @@ li {
 }
 
 h4 {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Roboto-Light', 'Roboto', sans-serif;
     margin-left: 4%;
     margin-right: 4%;
@@ -153,7 +158,7 @@ a {
 
 .parrafo {
     font-family: 'Roboto-Light', 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #4d4d4d;
     line-height: 1.6;
     margin-top: 37px;
@@ -210,3 +215,4 @@ footer div h2 {
 .fa-medium-m:before {
     content: "\f3c7";
 }
+
